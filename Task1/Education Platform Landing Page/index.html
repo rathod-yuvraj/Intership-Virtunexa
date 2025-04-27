@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Edu<span>Learn</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="active">Home</a>
+                <a href="#courses">Courses</a>
+                <a href="#">About</a>
+                <a href="#">Resources</a>
+                <a href="#">Contact</a>
+                <a href="#" class="btn btn-outline">Sign In</a>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Unlock Your <span>Potential</span> With Online Learning</h1>
+                <p>Join thousands of students advancing their careers with our interactive courses taught by industry experts.</p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary">Browse Courses</a>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>10K+</h3>
+                        <p>Students</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>200+</h3>
+                        <p>Courses</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Instructors</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Students learning online">
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Popular Courses</h2>
+                <p>Discover our most popular courses to start your learning journey</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Data Science">
+                        <span class="category">Data Science</span>
+                    </div>
+                    <div class="course-content">
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span>(4.9)</span>
+                        </div>
+                        <h3>Data Science Fundamentals</h3>
+                        <p class="instructor">By Dr. Sarah Johnson</p>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 24 Hours</span>
+                            <span><i class="far fa-user"></i> 1.2K Students</span>
+                        </div>
+                        <div class="course-footer">
+                            <span class="price">$89.99</span>
+                            <a href="#" class="btn btn-small">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Web Development">
+                        <span class="category">Web Development</span>
+                    </div>
+                    <div class="course-content">
+                        <div class="rating">
+                            <span class="stars">★★★★☆</span>
+                            <span>(4.7)</span>
+                        </div>
+                        <h3>Full Stack Web Development</h3>
+                        <p class="instructor">By Mark Williams</p>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 36 Hours</span>
+                            <span><i class="far fa-user"></i> 2.4K Students</span>
+                        </div>
+                        <div class="course-footer">
+                            <span class="price">$99.99</span>
+                            <a href="#" class="btn btn-small">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1415&q=80" alt="Digital Marketing">
+                        <span class="category">Marketing</span>
+                    </div>
+                    <div class="course-content">
+                        <div class="rating">
+                            <span class="stars">★★★★★</span>
+                            <span>(4.8)</span>
+                        </div>
+                        <h3>Digital Marketing Masterclass</h3>
+                        <p class="instructor">By Emily Chen</p>
+                        <div class="course-meta">
+                            <span><i class="far fa-clock"></i> 18 Hours</span>
+                            <span><i class="far fa-user"></i> 1.8K Students</span>
+                        </div>
+                        <div class="course-footer">
+                            <span class="price">$79.99</span>
+                            <a href="#" class="btn btn-small">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="#" class="btn btn-outline">View All Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
